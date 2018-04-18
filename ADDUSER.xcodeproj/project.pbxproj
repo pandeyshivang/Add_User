@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9539B6592087784C003215F9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C022206D3A29007415B1 /* Info.plist */; };
 		95B0C014206D3A29007415B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C013206D3A29007415B1 /* AppDelegate.swift */; };
 		95B0C016206D3A29007415B1 /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C015206D3A29007415B1 /* AddUserVC.swift */; };
 		95B0C019206D3A29007415B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C017206D3A29007415B1 /* Main.storyboard */; };
-		95B0C01C206D3A29007415B1 /* AssignCoinEption.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C01A206D3A29007415B1 /* AssignCoinEption.xcdatamodeld */; };
+		95B0C01C206D3A29007415B1 /* ADDUSER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C01A206D3A29007415B1 /* ADDUSER.xcdatamodeld */; };
 		95B0C01E206D3A29007415B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C01D206D3A29007415B1 /* Assets.xcassets */; };
 		95B0C021206D3A29007415B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C01F206D3A29007415B1 /* LaunchScreen.storyboard */; };
 		95B5BBB7206D7B44000F9361 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5BBB6206D7B44000F9361 /* Person.swift */; };
@@ -19,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95B0C010206D3A29007415B1 /* AssignCoinEption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignCoinEption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B0C010206D3A29007415B1 /* ADDUSER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADDUSER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B0C013206D3A29007415B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B0C015206D3A29007415B1 /* AddUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
 		95B0C018206D3A29007415B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +47,7 @@
 		95B0C007206D3A29007415B1 = {
 			isa = PBXGroup;
 			children = (
-				95B0C012206D3A29007415B1 /* AssignCoinEption */,
+				95B0C012206D3A29007415B1 /* ADDUSER */,
 				95B0C011206D3A29007415B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +55,12 @@
 		95B0C011206D3A29007415B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95B0C010206D3A29007415B1 /* AssignCoinEption.app */,
+				95B0C010206D3A29007415B1 /* ADDUSER.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95B0C012206D3A29007415B1 /* AssignCoinEption */ = {
+		95B0C012206D3A29007415B1 /* ADDUSER */ = {
 			isa = PBXGroup;
 			children = (
 				95B0C013206D3A29007415B1 /* AppDelegate.swift */,
@@ -71,17 +72,17 @@
 				95B0C01D206D3A29007415B1 /* Assets.xcassets */,
 				95B0C01F206D3A29007415B1 /* LaunchScreen.storyboard */,
 				95B0C022206D3A29007415B1 /* Info.plist */,
-				95B0C01A206D3A29007415B1 /* AssignCoinEption.xcdatamodeld */,
+				95B0C01A206D3A29007415B1 /* ADDUSER.xcdatamodeld */,
 			);
-			path = AssignCoinEption;
+			path = ADDUSER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95B0C00F206D3A29007415B1 /* AssignCoinEption */ = {
+		95B0C00F206D3A29007415B1 /* ADDUSER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95B0C025206D3A29007415B1 /* Build configuration list for PBXNativeTarget "AssignCoinEption" */;
+			buildConfigurationList = 95B0C025206D3A29007415B1 /* Build configuration list for PBXNativeTarget "ADDUSER" */;
 			buildPhases = (
 				95B0C00C206D3A29007415B1 /* Sources */,
 				95B0C00D206D3A29007415B1 /* Frameworks */,
@@ -91,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = AssignCoinEption;
+			name = ADDUSER;
 			productName = AssignCoinEption;
-			productReference = 95B0C010206D3A29007415B1 /* AssignCoinEption.app */;
+			productReference = 95B0C010206D3A29007415B1 /* ADDUSER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95B0C00B206D3A29007415B1 /* Build configuration list for PBXProject "AssignCoinEption" */;
+			buildConfigurationList = 95B0C00B206D3A29007415B1 /* Build configuration list for PBXProject "ADDUSER" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95B0C00F206D3A29007415B1 /* AssignCoinEption */,
+				95B0C00F206D3A29007415B1 /* ADDUSER */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9539B6592087784C003215F9 /* Info.plist in Resources */,
 				95B0C021206D3A29007415B1 /* LaunchScreen.storyboard in Resources */,
 				95B0C01E206D3A29007415B1 /* Assets.xcassets in Resources */,
 				95B0C019206D3A29007415B1 /* Main.storyboard in Resources */,
@@ -153,7 +155,7 @@
 				95B0C014206D3A29007415B1 /* AppDelegate.swift in Sources */,
 				95B5BBB7206D7B44000F9361 /* Person.swift in Sources */,
 				95B5BBBD206D89F2000F9361 /* DatePickerDilogVC.swift in Sources */,
-				95B0C01C206D3A29007415B1 /* AssignCoinEption.xcdatamodeld in Sources */,
+				95B0C01C206D3A29007415B1 /* ADDUSER.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +294,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6THHMEFZT;
-				INFOPLIST_FILE = AssignCoinEption/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ADDUSER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.study.AssignCoinEption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.adduser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,9 +309,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6THHMEFZT;
-				INFOPLIST_FILE = AssignCoinEption/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ADDUSER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.study.AssignCoinEption;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.adduser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95B0C00B206D3A29007415B1 /* Build configuration list for PBXProject "AssignCoinEption" */ = {
+		95B0C00B206D3A29007415B1 /* Build configuration list for PBXProject "ADDUSER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95B0C023206D3A29007415B1 /* Debug */,
@@ -328,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95B0C025206D3A29007415B1 /* Build configuration list for PBXNativeTarget "AssignCoinEption" */ = {
+		95B0C025206D3A29007415B1 /* Build configuration list for PBXNativeTarget "ADDUSER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95B0C026206D3A29007415B1 /* Debug */,
@@ -340,13 +342,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		95B0C01A206D3A29007415B1 /* AssignCoinEption.xcdatamodeld */ = {
+		95B0C01A206D3A29007415B1 /* ADDUSER.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				95B0C01B206D3A29007415B1 /* AssignCoinEption.xcdatamodel */,
 			);
 			currentVersion = 95B0C01B206D3A29007415B1 /* AssignCoinEption.xcdatamodel */;
-			path = AssignCoinEption.xcdatamodeld;
+			path = ADDUSER.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AssignCoinEption
+//  ADD_USER
 //
 //  Created by Shivang Pandey on 29/03/18.
 //  Copyright © 2018 Shivang Pandey. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AssignCoinEption
+//  ADD_USER
 //
 //  Created by Shivang Pandey on 29/03/18.
 //  Copyright © 2018 Shivang Pandey. All rights reserved.
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "AssignCoinEption")
+        let container = NSPersistentContainer(name: "ADDUSER")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
